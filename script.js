@@ -6,7 +6,7 @@ let color2 = document.querySelectorAll("color2");
 
 //functions
 const changecolor = ()=>{
-	bodi.style.background = "linear-gradient(to right,"+color1.value+","+color2.value");";
+	bodi.style.background = "linear-gradient(to right,"+color1.value+","+color2.value")";
 }
 //Adding Events
 
