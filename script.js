@@ -1,6 +1,8 @@
 //Variables
 
-let bodi = document.getElementById("bodi"),color1 = document.getElementById("color1"),color2 = document.getElementById("color2");
+let bodi = document.getElementById("bodi");
+let color1 = document.querySelectorAll(".color1");
+let color2 = document.querySelectorAll("color2");
 
 //functions
 const changecolor = ()=>{
@@ -9,4 +11,4 @@ const changecolor = ()=>{
 //Adding Events
 
 color1.addEventListener("input",changecolor);
-color2.addEventListener("input",changecolor)
+color2.addEventListener("input",changecolor);
