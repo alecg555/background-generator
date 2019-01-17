@@ -1,14 +1,20 @@
 //Variables
 
-let bodi = document.getElementById("bodi");
-let color1 = document.querySelectorAll(".color1");
-let color2 = document.querySelectorAll("color2");
+var body = document.getElementById("bodi");
+var color1 = document.querySelector(".color1");
+var color2 = document.querySelector(".color2");
 
 //functions
-const changecolor = ()=>{
-	bodi.style.background = "linear-gradient(to right,"+color1.value+","+color2.value")";
+function changecolor (){
+	body.style.background = 
+	"linear-gradient(to right, "
+	+ color1.value 
+	+", "
+	+ color2.value 
+	+")";
 }
 //Adding Events
 
-color1.addEventListener("input",changecolor);
-color2.addEventListener("input",changecolor);
+color1.addEventListener("input", changecolor);
+color2.addEventListener("input", changecolor);
+
