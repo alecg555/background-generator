@@ -1,8 +1,8 @@
 //Variables
-
-var body = document.getElementById("bodi");
-var color1 = document.querySelector(".color1");
-var color2 = document.querySelector(".color2");
+let rgb = document.getElementById("rgb")
+let body = document.getElementById("bodi");
+let color1 = document.querySelector(".color1");
+let color2 = document.querySelector(".color2");
 
 //functions
 function changecolor (){
@@ -12,6 +12,8 @@ function changecolor (){
 	+", "
 	+ color2.value 
 	+")";
+
+	rgb.textContent = body.style.background+";";
 }
 //Adding Events
 
