@@ -1,3 +1,3 @@
 body{
-	background: linear-gradient(to right,blue,purple);
+	background: radial-gradient(circle closest-side, green 0%, purple 40%, orange 100%);
 }
